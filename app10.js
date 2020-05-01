@@ -1,3 +1,4 @@
+// typescript unknown type
 var userInput;
 var userName;
 userInput = 5;

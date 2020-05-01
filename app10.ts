@@ -1,3 +1,5 @@
+// typescript unknown type
+
 let userInput: unknown;
 let userName: string;
 
