@@ -11,3 +11,12 @@ let combineValues: (a1: number, a2: number) => number;
 combineValues = add;
 
 combineValues(8, 8);
+
+function addAndHandle(n1: number, n2: number, cb: (a1: number) => void) {
+  const result = n1 + n2;
+  cb(result);
+}
+
+addAndHandle(8, 8, (sum) => {
+  console.log(sum);
+});
